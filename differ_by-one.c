@@ -7,7 +7,7 @@ int main()
 	scanf("%s %s",a,b);
 	m=strlen(a);
 	n=strlen(b);
-	if(m==n)
+	if(m==n&&m<=100000)
 	{
 		for(i=0;i<m;i++)
 		{
